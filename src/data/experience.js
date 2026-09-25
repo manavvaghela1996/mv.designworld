@@ -1,0 +1,51 @@
+export const experience = [
+  {
+    company: "Wings Tech Solutions",
+    duration: "3.5 Years",
+    role: "Graphic & UI UX Designer",
+    location: "Rajkot",
+    period: "Present",
+  },
+  {
+    company: "Infibrain Technology LLP",
+    duration: "1.3 Years",
+    role: "Graphic & UI Designer",
+    location: "Rajkot",
+    period: "",
+  },
+  {
+    company: "Wedwest Exhibition",
+    duration: "2 Years",
+    role: "Patnership & Sr. Graphic Designer",
+    location: "Rajkot",
+    period: "",
+  },
+  {
+    company: "Fashion Mantra Exhibition",
+    duration: "1.5 Years",
+    role: "Sr. Graphic Designer",
+    location: "Ahemedabad",
+    period: "",
+  },
+  {
+    company: "PCCUBE SoftTech",
+    duration: "1 Years",
+    role: "Jr. Graphic Designer",
+    location: "Ahemedabad",
+    period: "",
+  },
+  {
+    company: "Aas-Paas 24 News",
+    duration: "6 Month",
+    role: "Jr. Graphic Designer",
+    location: "Ahemedabad",
+    period: "",
+  },
+  {
+    company: "Micello PVT LTD",
+    duration: "6 Month",
+    role: "Jr. Graphic Designer",
+    location: "Ahemedabad",
+    period: "",
+  },
+];

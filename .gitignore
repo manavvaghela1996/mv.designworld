@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+.vite
+
+# Coverage
+coverage
+package-lock.json
+Podfile.lock
+yarn.lock
