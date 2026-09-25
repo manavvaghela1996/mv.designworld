@@ -88,7 +88,7 @@ export default function Hero() {
               transition={{ duration: 1.15, delay: 0.28, ease: [0.22, 1, 0.36, 1] }}
             >
               <MediaFrame
-                src="/assets/manav-profile.png"
+                src={`${import.meta.env.BASE_URL}assets/manav-profile.png`}
                 alt="Portrait of Manav Vaghela"
                 portrait
                 priority

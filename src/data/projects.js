@@ -7,6 +7,8 @@
  * Project images: public/assets/projects/project-01.jpg ... project-08.jpg
  */
 
+const asset = (file) => `${import.meta.env.BASE_URL}${file}`;
+
 export const projects = [
   {
     number: "01",
@@ -16,7 +18,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "featured",
-    image: "/assets/projects/project-01.jpg",
+    image: asset("assets/projects/project-01.jpg"),
     imageAlt: "Placeholder for a brand identity project",
     summary:
       "An open slot for a brand identity project. Replace this copy, the year, and the image when the work is ready.",
@@ -34,7 +36,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "tall",
-    image: "/assets/projects/project-02.jpg",
+    image: asset("assets/projects/project-02.jpg"),
     imageAlt: "Placeholder for a UI/UX project",
     summary:
       "An open slot for an interface project. Add screens, the problem, and the design decisions here.",
@@ -52,7 +54,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "wide",
-    image: "/assets/projects/project-03.jpg",
+    image: asset("assets/projects/project-03.jpg"),
     imageAlt: "Placeholder for a social media design project",
     summary:
       "An open slot for social and campaign visuals. Swap in the real series when assets are available.",
@@ -70,7 +72,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "editorial",
-    image: "/assets/projects/project-04.jpg",
+    image: asset("assets/projects/project-04.jpg"),
     imageAlt: "Placeholder for a digital campaign project",
     summary:
       "An open slot for a digital campaign. Use this layout for a wider story once the work exists.",
@@ -88,7 +90,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "portrait",
-    image: "/assets/projects/project-05.jpg",
+    image: asset("assets/projects/project-05.jpg"),
     imageAlt: "Placeholder for a visual design project",
     summary:
       "An open slot for visual design work. Replace the plate with a finished image and a short description.",
@@ -106,7 +108,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "landscape",
-    image: "/assets/projects/project-06.jpg",
+    image: asset("assets/projects/project-06.jpg"),
     imageAlt: "Placeholder for a mobile app UI project",
     summary:
       "An open slot for a mobile interface. Add flows, screens, and notes when a real project is ready.",
@@ -124,7 +126,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "full",
-    image: "/assets/projects/project-07.jpg",
+    image: asset("assets/projects/project-07.jpg"),
     imageAlt: "Placeholder for a web design project",
     summary:
       "An open slot for a website or digital layout. Point the image path at the final key visual.",
@@ -142,7 +144,7 @@ export const projects = [
     year: "",
     placeholder: true,
     layout: "reverse",
-    image: "/assets/projects/project-08.jpg",
+    image: asset("assets/projects/project-08.jpg"),
     imageAlt: "Placeholder for a creative direction project",
     summary:
       "An open slot for direction-led work. Replace this entry rather than presenting it as a finished project.",

@@ -35,7 +35,7 @@ function AnimatedRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mv.designworld">
       <ThemeProvider>
         <div className="min-h-screen bg-bg text-ink">
           <a className="skip-link" href="#main">
