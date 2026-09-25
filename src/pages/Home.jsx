@@ -23,7 +23,7 @@ export default function Home() {
       <Education />
       <Languages />
       <Hobbies />
-      <Process />
+      {/* <Process /> */}
       <Statement />
       <Contact />
     </main>
