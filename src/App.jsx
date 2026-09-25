@@ -46,7 +46,7 @@ export default function App() {
           <ScrollManager />
           <Navbar />
           <AnimatedRoutes />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </ThemeProvider>
     </BrowserRouter>
