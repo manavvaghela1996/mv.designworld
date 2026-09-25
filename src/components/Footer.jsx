@@ -12,7 +12,7 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-line">
-      <div className="mx-auto grid max-w-[1600px] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:px-10 lg:py-16">
+      {/* <div className="mx-auto grid max-w-[1600px] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:px-10 lg:py-16">
         <div className="lg:col-span-5">
           <p className="flex items-center gap-2 font-display text-3xl font-bold">
             <span className="h-2.5 w-2.5 bg-accent" aria-hidden="true" />
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
           ) : null}
         </div>
-      </div>
+      </div> */}
 
       <div className="mx-auto flex max-w-[1600px] flex-col gap-4 border-t border-line px-4 py-5 text-[11px] uppercase tracking-[0.18em] text-muted sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-10">
         <p>© 2026 Manav Vaghela. All rights reserved.</p>
